@@ -1,0 +1,59 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.175.132”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  cJSON.c
+  handle.cpp
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(356,32): warning : conversion to ‘int’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(356,32): warning :    int rows = mysql_num_rows(res);
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(356,32): warning :                                 ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(278,1): warning : control reaches end of non-void function [-Wreturn-type]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(278,1): warning :  }
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(278,1): warning :  ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(332,1): warning : control reaches end of non-void function [-Wreturn-type]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(332,1): warning :  }
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\handle.cpp(332,1): warning :  ^
+  Server.cpp
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning :  #define MYSQL_ERROR "发生异常，请重新尝试"
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning :                      ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(239,16): message : in expansion of macro ‘MYSQL_ERROR’
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(239,16): message :     char* str = MYSQL_ERROR;
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(239,16): message :                 ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(19,26): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(19,26): warning :  #define CHAT_USER_FAILED "私聊失败，好友不在线"
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(19,26): warning :                           ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(246,16): message : in expansion of macro ‘CHAT_USER_FAILED’
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(246,16): message :     char* msg = CHAT_USER_FAILED;
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(246,16): message :                 ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(516,38): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(516,38): warning :      int len = read(cfd, buf, MAXZSIZE);
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(516,38): warning :                                       ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(583,25): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(583,25): warning :       d.size = str2.size();
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(583,25): warning :                          ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning :  #define MYSQL_ERROR "发生异常，请重新尝试"
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\protocol.h(6,21): warning :                      ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(668,15): message : in expansion of macro ‘MYSQL_ERROR’
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(668,15): message :    char* str = MYSQL_ERROR;
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(668,15): message :                ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(854,22): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(854,22): warning :   int size = str.size();
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(854,22): warning :                       ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(856,39): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(856,39): warning :   int ret = write(cfd, str.c_str(),size);
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(856,39): warning :                                        ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(878,30): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(878,30): warning :   int ret = write(cfd,buf,size);
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(878,30): warning :                               ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(892,1): warning : no return statement in function returning non-void [-Wreturn-type]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(892,1): warning :  }
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(892,1): warning :  ^
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(403,1): warning : control reaches end of non-void function [-Wreturn-type]
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(403,1): warning :  }
+H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\Server.cpp(403,1): warning :  ^
+  正在链接对象
+  CampusCommu_Server.vcxproj -> H:\QTstudy\campusCommunications\server\CampusCommu_Server\CampusCommu_Server\bin\x64\Debug\CampusCommu_Server.out

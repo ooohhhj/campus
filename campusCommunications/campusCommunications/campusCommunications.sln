@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "campusCommunications", "campusCommunications\campusCommunications.vcxproj", "{A9E025DD-76B6-43FD-95BE-7B7B85088AAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E025DD-76B6-43FD-95BE-7B7B85088AAB}.Debug|x64.ActiveCfg = Debug|x64
+		{A9E025DD-76B6-43FD-95BE-7B7B85088AAB}.Debug|x64.Build.0 = Debug|x64
+		{A9E025DD-76B6-43FD-95BE-7B7B85088AAB}.Release|x64.ActiveCfg = Release|x64
+		{A9E025DD-76B6-43FD-95BE-7B7B85088AAB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA88842E-3BA5-4ED4-B2C1-7FEA74746421}
+	EndGlobalSection
+EndGlobal

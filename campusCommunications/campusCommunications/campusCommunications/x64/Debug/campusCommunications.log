@@ -1,0 +1,5 @@
+﻿  moc logon.h
+  logon.cpp
+  main.cpp
+  moc_logon.cpp
+  campusCommunications.vcxproj -> H:\QTstudy\campusCommunications\campusCommunications\x64\Debug\campusCommunications.exe

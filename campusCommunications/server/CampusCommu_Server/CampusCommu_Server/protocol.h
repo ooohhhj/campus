@@ -1,0 +1,72 @@
+﻿#pragma once
+
+#define LOGON_USER_NO_EXIST "用户不存在"
+#define LOGON_FAILED "用户已经登录"
+#define LOGON_SUCCESS "用户可以登录"
+#define MYSQL_ERROR "发生异常，请重新尝试"
+
+
+#define LOGIN_USER_EXIST "用户已经存在"
+#define LOGIN_SUCCESS "注册成功"
+
+#define SEARCH_USER_EXIST "用户存在,但对方不是你的好友"
+#define SEARCH_USER_FRIEND "用户存在,对方是你的好友"
+#define SEARCH_USER_NO_EXIST "用户不存在"
+
+#define ADD_USER_NO_ONLINE "用户不在线，将消息缓存"
+#define ADD_USER_ONLINE "消息已转发"
+
+#define CHAT_USER_FAILED "私聊失败，好友不在线"
+#define CHAT_USER_ONLINE "开始私聊"
+#define CHAT_USER_REFUSE "好友拒绝私聊"
+
+
+
+enum ENUM_MSG_TYPE
+{
+    ENUM_MSG_TYPE_MIN = 0,
+
+    ENUM_MSG_TYPE_LOGIN_REQUEST,//注册请求 1
+    ENUM_MSG_TYPE_LOGIN_RESPOND,//注册回复 2
+
+    ENUM_MSG_TYPE_LOGON_REQUEST,//登录请求 3
+    ENUM_MSG_TYPE_LOGON_RESPOND,//登录回复 4
+    ENUM_MSG_TYPE_LOGON_SUCCESS,//登录成功 5
+
+    ENUM_MSG_TYPE_SEARCH_USER_REQUEST,//搜索用户请求 6
+    ENUM_MSG_TYPE_SEARCH_USER_RESPOND,//搜索用户回复 7
+
+    ENUM_MSG_TYPE_ADD_USER_REQUEST,//添加用户请求 8
+    ENUM_MSG_TYPE_ADD_USER_RESPOND,//添加用户回复 9
+
+
+    ENUM_MSG_TYPE_ADD_USER_AGREE_REQUEST,//用户同意好友申请 10
+    ENUM_MSG_TYPE_ADD_USER_AGREE_RESPOND,//用户同意好友回复 11
+
+    ENUM_MSG_TYPE_ADD_USER_NO_AGREE_REQUEST,//用户不同意好友申请的请求 12
+    ENUM_MSG_TYPE_ADD_USER_NO_AGREE_RESPOND,//用户不同意好友申请的回复 13
+
+
+    ENUM_MSG_TYPE_CHAT_USER_REQUEST,//用户私聊请求
+    ENUM_MSG_TYPE_CHAT_USER_RESPOND,//用户私聊回复
+
+    ENUM_MSG_TYPE_CHAT_USER_AGREE_REQUEST,//用户同意私聊请求
+    ENUM_MSG_TYPE_CHAT_USER_AGREE_RESPOND,//用户同意私聊回复
+
+
+    ENUM_MSG_TYPE_CHAT_USER_REFUSE_REQUEST,//用户拒绝私聊请求
+    ENUM_MSG_TYPE_CHAT_USER_REFUSE_RESPOND,//用户拒绝私聊回复
+
+    ENUM_MSG_TYPE_SEND_CHAT_MSG,//发送聊天消息
+    ENUM_MSG_TYPE_RECV_CHAT_MSG,//接收聊天消息
+
+    ENUM_MSG_TYPE_READ_FILE_REQUEST,//读文件请求
+    ENUM_MSG_TYPE_READ_FILE_RESPOND,//读文件回复
+
+    ENUM_MSG_TYPE_WRITE_FILE_REQUEST,//写文件请求
+    ENUM_MSG_TYPE_WRITE_FILE_RESPOND,//写文件回复
+
+	
+
+	ENUM_MSG_TYPE_MAX = 32
+};
